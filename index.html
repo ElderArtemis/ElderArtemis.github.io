@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElderArtemis | Portfolio IT Profesional</title>
+    <style>
+        :root {
+            --bg: #0d1117;
+            --panel: #161b22;
+            --border: #30363d;
+            --text-main: #c9d1d9;
+            --text-bright: #f0f6fc;
+            --accent: #58a6ff; 
+            --cmd: #7ee787;   
+        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--bg); color: var(--text-main); line-height: 1.6; margin: 0; padding: 20px; }
+        .terminal { max-width: 1000px; margin: 20px auto; background: var(--panel); border: 1px solid var(--border); border-radius: 8px; padding: 35px; box-shadow: 0 20px 50px rgba(0,0,0,0.6); }
+        .prompt { color: var(--accent); font-weight: bold; font-family: monospace; }
+        .command { color: var(--cmd); font-family: monospace; }
+        h1 { color: var(--text-bright); font-size: 2.5rem; margin: 10px 0; }
+        .job-title { color: var(--accent); font-size: 1.2rem; font-weight: bold; margin-bottom: 20px; display: block; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0; }
+        .card { border: 1px solid var(--border); padding: 20px; border-radius: 6px; background: rgba(255,255,255,0.03); }
+        .card h3 { margin-top: 0; color: var(--text-bright); border-bottom: 1px solid var(--border); padding-bottom: 8px; font-size: 1.1rem; }
+        .tag { background: #21262d; border: 1px solid var(--border); color: var(--accent); padding: 3px 10px; border-radius: 4px; font-size: 0.85rem; margin: 3px; display: inline-block; }
+        .contact-link { color: var(--cmd); text-decoration: none; font-weight: bold; }
+        ul { list-style-type: "→ "; padding-left: 20px; }
+        li { margin-bottom: 8px; }
+        .date { color: #8b949e; font-size: 0.9rem; font-weight: bold; }
+        .section-header { border-left: 4px solid var(--cmd); padding-left: 15px; margin-top: 40px; color: var(--text-bright); }
+    </style>
+</head>
+<body>
+
+<div class="terminal">
+    <p><span class="prompt">sergio@portfolio:~$</span> <span class="command">whoami</span></p>
+    <h1>ElderArtemis</h1>
+    <span class="job-title">ADMINISTRADOR DE SISTEMAS TI</span>
+    <p>Profesional IT con experiencia en administración de sistemas, redes, ciberseguridad y virtualización. Especializado en Linux y en soluciones basadas en Open Source. Orientado a optimizar infraestructuras, automatizar procesos y asegurar entornos corporativos.</p>
+
+    <div class="grid">
+        <div class="card">
+            <h3>Hard Skills</h3>
+            <span class="tag">Windows Server</span> <span class="tag">Linux Server</span> <span class="tag">VMware</span> 
+            <span class="tag">Hyper-V</span> <span class="tag">Proxmox</span> <span class="tag">Citrix</span>
+            <span class="tag">Azure</span> <span class="tag">AWS</span> <span class="tag">Ciberseguridad</span>
+            <span class="tag">PowerShell</span> <span class="tag">Bash Scripting</span> <span class="tag">Python</span>
+        </div>
+        <div class="card">
+            <h3>Soft Skills & Otros</h3>
+            <ul>
+                <li>Buena comunicación</li>
+                <li>Resolución de problemas</li>
+                <li>Vehículo propio y disponibilidad total</li>
+                <li>Inglés Nivel Medio</li>
+            </ul>
+        </div>
+    </div>
+
+    <h2 class="section-header">Experiencia Laboral</h2>
+    <div class="card">
+        <span class="date">2024 - Actualmente</span>
+        <h3>Correos Express</h3>
+        <p><strong>Infraestructura IT, Virtualización & Cloud:</strong></p>
+        <ul>
+            <li>Administración de entornos de virtualización y VDI (VMware, Hyper-V, Proxmox, Citrix).</li>
+            <li>Gestión de sistemas Linux/Windows y plataformas Cloud (Azure, AWS, M365, Copilot).</li>
+            <li>Coordinación de proyectos de infraestructura y resolución de incidencias críticas.</li>
+        </ul>
+        <p><strong>Ciberseguridad & Redes:</strong></p>
+        <ul>
+            <li>Administración de seguridad: IPS, XSIAM, Trellix, CheckPoint, Defender, CrowdStrike.</li>
+            <li>Gestión de redes, firewalls, seguridad perimetral y control de accesos.</li>
+            <li>Apoyo en auditorías, hardening y mejora continua.</li>
+        </ul>
+    </div>
+
+    <h2 class="section-header">Formación Académica</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Títulos Oficiales</h3>
+            <p><strong>CFGS Administración de Sistemas Informáticos en Red</strong><br>
+            <small>the Power FP | 2024 - Actualidad</small></p>
+            <p><strong>CFGM Sistemas Microinformáticos y Redes</strong><br>
+            <small>I.E.S Rey Fernando VI | 2022 - 2024</small></p>
+        </div>
+        <div class="card">
+            <h3>Certificaciones</h3>
+            <ul>
+                <li>AWS Academy Graduate - Cloud Foundations</li>
+                <li>IBM Cloud Technical Advocate V2</li>
+                <li>Google Cybersecurity Professional</li>
+                <li>Cisco CCNA Fundamentos Networking</li>
+            </ul>
+        </div>
+    </div>
+
+    <h2 class="section-header">Formación Complementaria</h2>
+    <div class="card">
+        <div class="grid" style="grid-template-columns: 1fr 1fr; border: none; padding: 0;">
+            <ul>
+                <li>Programación JAVA (210h)</li>
+                <li>Linux Profesional Avanzado (100h)</li>
+                <li>Sistemas operativos (170h)</li>
+            </ul>
+            <ul>
+                <li>Bases de datos relacionales (210h)</li>
+                <li>Programación orientada a objetos (250h)</li>
+            </ul>
+        </div>
+    </div>
+
+    <p><span class="prompt">sergio@portfolio:~$</span> <span class="command">cat contact.info</span></p>
+    <p>
+        📍 San Fernando de Henares, Madrid | 📧 <a href="https://github.com/ElderArtemis" class="contact-link">github.com/ElderArtemis</a><br>
+        🔗 <a href="https://www.linkedin.com/in/myspm" target="_blank" class="contact-link">LinkedIn: myspm</a> | 
+        🐙 <a href="https://github.com/ElderArtemis" target="_blank" class="contact-link">GitHub: ElderArtemis</a>
+    </p>
+</div>
+
+</body>
+</html>
